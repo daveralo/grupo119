@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>Web Page</h1>
+
+<p id="demo"></p>
+
+<script>
+ var nombre = 'Daniel';
+ var jueves = 19.06
+ var edad = 20;
+ var date1 = new Date('December 17, 1995 03:24:00');
+ document.getElementById("demo").innerHTML = date1;
+ document.write(nombre+ "<br>" +jueves);
+ document.write("<br>");
+ var semana = ["lunes","martes","miercoles","jueves"];
+ document.write(semana[2]);
+ document.write("<br>");
+ document.write(semana.sort());
+ var carro = {
+     color: "black",
+	 size : 12
+       };
+ document.write("<br>");
+ document.write(carro.size);
+ //nombre = prompt("ingresa tu nombre");
+ //alert(nombre)
+ var num1 = 1;
+ var num2 = 10;
+ resultado = num1 + num2;
+ document.write("<br>");
+ document.write("Resultado de num1 + num2 = " + resultado);
+ 
+ //Condicional
+ document.write("<br>");
+ if (carro.color == "black")
+ document.write("carro negro");
+ else
+ document.write("carro otro color");
+   
+</script>
+<br>
+<span onmouseover="this.style.color='red'">Mouse over me!</span>
+<form name="myForm" action="/action_page.php"
+ method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html> 
