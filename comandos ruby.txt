@@ -1,0 +1,44 @@
+
+
+irb(main):005:0> puts 1.1 * 2.3
+2.53
+=> nil
+irb(main):006:0> 1.1 * 2.3
+=> 2.53
+irb(main):007:0> puts "me gusta la clase"
+me gusta la clase
+=> nil
+irb(main):008:0> puts "me gusta la clase" + "ruby"
+me gusta la claseruby
+=> nil
+irb(main):009:0> puts "me gusta la clase" + " ruby."
+me gusta la clase ruby.
+=> nil
+irb(main):010:0> puts "fedesoft" * 4
+fedesoftfedesoftfedesoftfedesoft
+=> nil
+irb(main):011:0> composer = 'Mozart'
+=> "Mozart"
+irb(main):012:0> puts composer + ' fue "el amo", en su dia.'
+Mozart fue "el amo", en su dia.
+=> nil
+irb(main):013:0> composer = 'Beethoven'
+=> "Beethoven"
+irb(main):014:0> puts 'Pero yo prefiero a ' + composer + ', personalmente.'
+Pero yo prefiero a Beethoven, personalmente.
+=> nil
+irb(main):015:0> exploradores = ['opera','Explorer','chrome']
+=> ["opera", "Explorer", "chrome"]
+irb(main):016:0> puts exploradores
+opera
+Explorer
+chrome
+=> nil
+irb(main):020:0> var = 'solo otro ' + 'texto'
+=> "solo otro texto"
+irb(main):021:0> var = 5 * (1+2)
+=> 15
+irb(main):022:0> puts var
+15
+=> nil
+
